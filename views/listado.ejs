@@ -1,0 +1,24 @@
+<%- include('partials/head')-%> 
+  <body class="container">
+    <%- include('partials/header')%> 
+    <section class="text-center" >
+        <h1 class="p-5">Mostrar peliculas</h1>
+      </section>
+    <ul>
+        <% for( let index = 0; index < peliculas.length; index++ ) { %>
+            <li>
+                <a href="/peliculas/<%=peliculas[index].id_pelicula %>">
+                    <%=peliculas[index].nombre  %> 
+                </a>
+            
+            </li>
+        
+        <% } %>
+    </ul>
+
+
+
+<%- include('partials/scripts')%> 
+<%- include('partials/footer')%> 
+</body>
+</html>

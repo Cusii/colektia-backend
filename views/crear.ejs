@@ -1,0 +1,37 @@
+<%- include('partials/head')-%> 
+  <body class="container text-center">
+    <%- include('partials/header')%> 
+<h1>Crear pelicula</h1>
+<form action="/peliculas/crear" method="POST" enctype="multipart/form-data">
+    <div class="">
+        <label for="" class="form-label ">Titulo</label>
+        <input type="text" name="titulo" class="form-control ">
+    </div>
+    <div>
+        <label for="" class="form-label">Descripcion</label>
+        <input type="text" name="descripcion" class="form-control">
+    </div>
+    <div>
+        <label for="" class="form-label">Foto</label>
+        <input type="file" name="foto" class="form-control">
+    </div>
+    <div class="row p-3 mx-auto center-block">
+        <label for="" class="form-label col-2 mx-auto">Genero</label>
+        <select name="genero" id="" class="col-3 mx-auto">
+            <% for( let index = 0; index < generos.length; index++ ) { %>
+                <option value="<%= generos[index].id_genero %> ">
+                    <%= generos[index].genero %> 
+                </option>
+            <% } %>
+            
+        </select>
+        <button type="submit" class="btn btn-btn btn-outline-primary col-6 ">enviar</button>   
+    </div>
+     
+
+</form>
+
+<%- include('partials/scripts')%> 
+<%- include('partials/footer')%> 
+</body>
+</html>

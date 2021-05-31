@@ -1,0 +1,21 @@
+<%- include('partials/head')-%> 
+  <body>
+    <%- include('partials/header')%> 
+    
+    <h1><%= pelicula.nombre %></h1>
+    <h2><%= pelicula.descripcion %></h2>
+    <img src="<%= pelicula.foto %>" alt="">
+    <h2><%= pelicula.foto %></h2>
+    <h2><%= pelicula.genero.genero %></h2>
+    <a href="/peliculas/editar/<%=pelicula.id_pelicula %>">
+        <button>editar</button>
+    </a>
+    <form action="/peliculas/borrar/<%=pelicula.id_pelicula %>" method="POST">
+        <button type="submit">borrar</button>
+    </form>
+
+    <%- include('partials/scripts')%> 
+    <%- include('partials/footer')%> 
+  </body>
+  
+</html>
