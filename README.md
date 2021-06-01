@@ -28,7 +28,7 @@
         id_genero int,
         foreign key(id_genero) references generos(id_genero)
 	);
-	```
+```
 ```MySQL
     insert into generos (genero) values('Comedia');
 
