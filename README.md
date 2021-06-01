@@ -40,17 +40,17 @@
 
     insert into generos (genero) values('Infantil');
 
-    insert into peliculas (nombre,descripcion,foto,id_genero) values('La la la','Editar','la-la-land.jpg','3');
+    insert into peliculas (nombre,descripcion,foto,id_genero) values('La la la','Descripcion','la-la-land.jpg','3');
 
-    insert into peliculas (nombre,descripcion,foto,id_genero) values('Joker 2019','Editar','joker-2019.jpg','4');
+    insert into peliculas (nombre,descripcion,foto,id_genero) values('Joker 2019','Descripcion','joker-2019.jpg','4');
 
-    insert into peliculas (nombre,descripcion,foto,id_genero) values('Cars','Editar','cars.jpg','5');
+    insert into peliculas (nombre,descripcion,foto,id_genero) values('Cars','Descripcion','cars.jpg','5');
 
-    insert into peliculas (nombre,descripcion,foto,id_genero) values('El Rey Leon','Editar','el-rey-leon-2019.jpg','5');
+    insert into peliculas (nombre,descripcion,foto,id_genero) values('El Rey Leon','Descripcion','el-rey-leon-2019.jpg','5');
 
-    insert into peliculas (nombre,descripcion,foto,id_genero) values('Mulan','Editar','mulan.jpg','4');
+    insert into peliculas (nombre,descripcion,foto,id_genero) values('Mulan','Descripcion','mulan.jpg','4');
 
-    insert into peliculas (nombre,descripcion,foto,id_genero) values('Bloodshot','Editar','bloodshot.jpeg','4');
+    insert into peliculas (nombre,descripcion,foto,id_genero) values('Bloodshot','Descripcion','bloodshot.jpeg','4');
 
 ```
 
