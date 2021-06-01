@@ -8,7 +8,7 @@ uploadImages= require('../middlewares/uploadImages')
 router.post('/crear',uploadImages.any(),peliculasController.guardar)
 router.get('/',peliculasController.listado)
 router.get('/:id',peliculasController.detalle)
-router.put('/editar/:id',peliculasController.actualizar)
+router.put('/editar/:id',uploadImages.any(),peliculasController.actualizar)
 router.post('/borrar/:id',peliculasController.borrar)
 
 module.exports = router;

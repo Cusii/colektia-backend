@@ -51,9 +51,9 @@ module.exports = {
     try {
       db.Pelicula.update(
         {
-          titulo: req.body.titulo,
+          nombre: req.body.nombre,
           descripcion: req.body.descripcion,
-          foto: req.body.foto,
+          foto: req.files[0].filename,
           id_genero: req.body.id_genero,
         },
         {
