@@ -8,6 +8,7 @@
 -En la seccion de development asignarle la contraseña de usuario
 
 ### Crear la base de datos:
+- Para crear la base de datos usar el archivo db_pelicula.sql o
 -En el entorno de base de datos pegar lo siguente
 ```MySQL
     create database db_peliculas;
@@ -57,3 +58,10 @@
 ### Correr el proyecto:
 - En el ambiente de desarrollo, ejecutar `npm run dev`
 - El sistema estara corriendo en`http://localhost:3000/`
+
+### Endpoints :
+-Las rutas funcionan con los siguientes sndpoints:
+-Listar: `http://localhost:3000/`
+-Crear: `http://localhost:3000/crear`
+-Editar: `http://localhost:3000/editar/:id`
+-Borrar: `http://localhost:3000/borrar/:id`
