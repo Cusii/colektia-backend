@@ -21,7 +21,7 @@
         primary key(id_pelicula),
         nombre varchar(25),
         descripcion varchar(150),
-        foto varchar(25),
+        foto varchar(100),
         id_genero int,
         foreign key(id_genero) references generos(id_genero)
 	);
