@@ -40,7 +40,7 @@
 
     insert into generos (genero) values('Infantil');
 
-    insert into peliculas (nombre,descripcion,foto,id_genero) values('La la la','Editar','lalala.png','3');
+    insert into peliculas (nombre,descripcion,foto,id_genero) values('La la la','Editar','la-la-land.jpg','3');
 
     insert into peliculas (nombre,descripcion,foto,id_genero) values('Joker 2019','Editar','joker-2019.jpg','4');
 
