@@ -11,7 +11,8 @@
 -En el entorno de base de datos pegar lo siguente
 ```MySQL
     create database db_peliculas;
-    ```
+```
+
 ```MySQL
     create table generos(
         id_genero int not null auto_increment,
