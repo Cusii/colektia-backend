@@ -11,7 +11,8 @@
 -En el entorno de base de datos pegar lo siguente
 ```MySQL
     create database db_peliculas;
-
+    ```
+```MySQL
     create table generos(
         id_genero int not null auto_increment,
         primary key(id_genero),
@@ -26,7 +27,8 @@
         id_genero int,
         foreign key(id_genero) references generos(id_genero)
 	);
-
+	```
+```MySQL
     insert into generos (genero) values('Comedia');
 
     insert into generos (genero) values('Terror');
