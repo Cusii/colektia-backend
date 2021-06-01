@@ -10,10 +10,7 @@ module.exports = {
         foto: req.files[0].filename,
         id_genero: req.body.id_genero,
       });
-      console.log(req.body)
-      console.log(req.files)
-      console.log(req.body.descripcion)
-      res.status(200).json(req.files);
+      res.status(200).json(req.body);
       console.log(req.body)
     } catch (error) {
       console.error(error);
