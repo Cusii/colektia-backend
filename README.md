@@ -1,4 +1,4 @@
-#:computer: Configuracion del entorno Backend
+# :computer: Configuracion del entorno Backend:
 
 - Clonar el repositorio en la carpeta deseada con el comando: `git clone https://github.com/Cusii/colektia-backend.git`
 - Situarse en la carpeta colektia-backend (donde se encuentra el package.json): `cd colektia-backend`
@@ -50,6 +50,6 @@
 
 ```
 
-###Correr el proyecto:
+### Correr el proyecto:
 - En el ambiente de desarrollo, ejecutar `npm run dev`
 - El sistema estara corriendo en`http://localhost:3000/`
