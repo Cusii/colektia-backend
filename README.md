@@ -1,6 +1,7 @@
 # :computer: Configuracion del entorno Backend:
 
-- Clonar el repositorio en la carpeta deseada con el comando: `git clone https://github.com/Cusii/colektia-backend.git`
+- Clonar el repositorio en la carpeta deseada con el comando:
+ `git clone https://github.com/Cusii/colektia-backend.git`
 - Situarse en la carpeta colektia-backend (donde se encuentra el package.json): `cd colektia-backend`
 - Instalar las dependencias: `npm install`
 - Revisar la contraseña de la Base de Datos en: `database/config/config.js`
