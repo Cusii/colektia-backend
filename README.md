@@ -61,7 +61,11 @@
 
 ### Endpoints :
 -Las rutas funcionan con los siguientes sndpoints:
+
 -Listar: `http://localhost:3000/` 
+
 -Crear: `http://localhost:3000/crear` 
+
 -Editar: `http://localhost:3000/editar/:id` 
+
 -Borrar: `http://localhost:3000/borrar/:id` 
